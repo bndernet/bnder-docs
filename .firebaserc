@@ -1,0 +1,23 @@
+{
+  "projects": {
+    "default": "bnder-dev",
+    "dev": "bnder-dev",
+    "prod": "bnder-prod"
+  },
+  "targets": {
+    "bnder-prod": {
+      "hosting": {
+        "docs": [
+          "bnder-dev-docs"
+        ]
+      }
+    },
+    "bnder-dev": {
+      "hosting": {
+        "docs": [
+          "bnder-dev-docs"
+        ]
+      }
+    }
+  }
+}
