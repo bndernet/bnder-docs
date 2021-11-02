@@ -4,7 +4,7 @@ sidebar_position: 0
 
 # Getting started with Task Manager
 
-To get started with Task Manager you have to invite the bot to your server.
+To get started with Task Manager you have to invite the bot to your server. You can invite it via our [invite link (https://bnder.net/@tmb)](https://bnder.net/@tmb).
 
 ## Inviting
 
@@ -15,7 +15,7 @@ In order to invite a bot to your server, you need the "Manage Server" permission
 :::
 
 Before a bot can be used on a Server it is necessary to invite the bot to the server you want it on. You do that by
-visiting an invite page, hosted on Discords network.
+visiting an [invite page](https://bnder.net/@tmb), hosted on Discords network.
 
 ### Bot invite link
 
@@ -50,6 +50,8 @@ The structure of the link is the following:
 
 On the invite page, you can see some permissions, the bot wants to get. These permissions are necessary for some
 specific functionality.
+
+![screenshot of discords authorization page](/img/tmb/discord_bot_authorize_image.webp)
 
 - `read messages` - The bot needs to read messages, to filter out messages starting with the [prefix](prefix.md)
   of the bot.

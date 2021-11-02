@@ -32,6 +32,7 @@ To understand the concept of tasks, take a look at [this page](tasks.md).
 | `task edit <Task ID> <Task text>` | -task edit 98253 Please do that now i had a typo | If you want to edit the task text, use this command. It requires the task id and a new text. | EDIT_TASK |
 | `task info <Task ID>` | -task info 89312 | This command is used to display various information about the task with the specified id. It will display the id, deadline, assigned to and text. | None |
 | `task done <Task ID>` | -task done 83819 | Can be used to skip all states of a task with the specified id and set it directly to done. | None |
+| `task undo <Task ID>` | -task undo 73812 | If you want to pull the [state of the task](tasks.md#state) one step back, you can execute this command. | None |
 
 ## Group Commands
 
