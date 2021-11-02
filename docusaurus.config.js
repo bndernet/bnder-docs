@@ -6,15 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'bnder Docs',
+  url: 'https://docs.bnder.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'bndernet', // Usually your GitHub org/user name.
+  projectName: 'bnder-docs', // Usually your repo name.
 
   presets: [
     [
@@ -24,16 +23,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          editUrl: 'https://github.com/bndernet/bnder-docs/edit/main/',
         },
       }),
     ],
@@ -43,21 +33,20 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'bnder Docs',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'bnder Logo',
+          src: 'img/bnder_logo.jpg',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/bndernet/bnder-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -67,46 +56,83 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Direct invites',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Invite Task Manager',
+                to: 'https://bnder.net/@tmb',
+              },
+              {
+                label: 'Invite Discord Wellbeing',
+                to: 'https://bnder.net/@dwb',
+              },
+              {
+                label: 'Join our Discord',
+                to: 'https://bnder.net/discord',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Our Discord Bots',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Task Manager',
+                href: 'https://bnder.net/tmb',
+              },
+              {
+                label: 'Discord Wellbeing',
+                href: 'https://bnder.net/dwb',
+              },
+            ],
+          },
+          {
+            title: 'Social Media',
+            items: [
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/bnderde',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://instagram.com/bnder.de',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://bnder.net/discord',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/bndernet',
+              },
+              {
+                label: 'YouTube',
+                href: 'https://www.youtube.com/channel/UCn3Dk1AqdOR1bt3dUESHw2w',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Legal',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Imprint',
+                to: 'https://bnder.net/imprint',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Privacy policy',
+                href: 'https://bnder.net/privacy',
+              },
+              {
+                label: 'Terms of Use',
+                href: 'https://bnder.net/termsofuse',
+              },
+              {
+                label: 'Community Guidelines',
+                href: 'https://bnder.dev/guidelines',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} bnder`,
       },
       prism: {
         theme: lightCodeTheme,
