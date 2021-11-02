@@ -77,11 +77,11 @@ const config = {
             items: [
               {
                 label: 'Task Manager',
-                href: 'https://bnder.net/tmb',
+                to: 'https://bnder.net/tmb',
               },
               {
                 label: 'Discord Wellbeing',
-                href: 'https://bnder.net/dwb',
+                to: 'https://bnder.net/dwb',
               },
             ],
           },
@@ -119,15 +119,15 @@ const config = {
               },
               {
                 label: 'Privacy policy',
-                href: 'https://bnder.net/privacy',
+                to: 'https://bnder.net/privacy',
               },
               {
                 label: 'Terms of Use',
-                href: 'https://bnder.net/termsofuse',
+                to: 'https://bnder.net/termsofuse',
               },
               {
                 label: 'Community Guidelines',
-                href: 'https://bnder.dev/guidelines',
+                to: 'https://bnder.dev/guidelines',
               },
             ],
           },
