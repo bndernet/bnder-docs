@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
+import LPHeader from "@site/src/components/LPHeader";
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -24,7 +25,7 @@ export default function Home(): JSX.Element {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
+      <LPHeader />
       <main>
         <HomepageFeatures />
       </main>

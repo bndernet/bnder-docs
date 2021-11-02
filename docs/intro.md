@@ -9,10 +9,10 @@ of the functionality of all commands and features.
 
 ## Important documents
 ### Task Manager
-- [All Commands](Task%20Manager/all-commands.md)
-- [Boards](Task%20Manager/boards.md)
-- [Groups](Task%20Manager/groups.md)
-- [Permissions](Task%20Manager/permissions.md)
-- [Tasks](Task%20Manager/tasks.md)
+- [All Commands](tmb/all-commands.md)
+- [Boards](tmb/boards.md)
+- [Groups](tmb/groups.md)
+- [Permissions](tmb/permissions.md)
+- [Tasks](tmb/tasks.md)
 
 ### Discord Wellbeing
