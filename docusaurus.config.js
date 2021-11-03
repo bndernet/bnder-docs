@@ -1,10 +1,6 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-/** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'bnder Docs',
   url: 'https://docs.bnder.net',
@@ -12,8 +8,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'bndernet', // Usually your GitHub org/user name.
-  projectName: 'bnder-docs', // Usually your repo name.
+  organizationName: 'bndernet',
+  projectName: 'bnder-docs',
 
   presets: [
     [
@@ -22,7 +18,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl: 'https://github.com/bndernet/bnder-docs/edit/main/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
@@ -43,7 +38,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'tmb/getting-started',
             position: 'left',
             label: 'Docs',
           },
