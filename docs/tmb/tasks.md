@@ -1,6 +1,6 @@
 # Tasks
 
-A Task holds multiple arguments. It contains a text which describes what the assigned user or group members should do, it contains an ID which is used to identify the task in every command and it has one of three [stats](#states). Optional it can contain a deadline.
+A Task holds multiple arguments. It contains a text which describes what the assigned user or group members should do, it contains an ID which is used to identify the task in every command and it has one of three [states](#states). Optional it can contain a deadline.
 
 Except for the ID, all data can be edited.
 
