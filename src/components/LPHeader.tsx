@@ -10,13 +10,13 @@ function CenterText() {
             width: "unset",
             position: "absolute",
             transform: "translate(-50%, -50%)",
-            top: "45%",
+            top: "48%",
             left: "50%",
             minWidth: 300,
             textAlign: "center",
             color: "#fff",
             [`@media only screen and (max-width: 800px)`]: {
-                top: "42%",
+                top: "50%",
                 width: "80%",
             },
         })
@@ -40,7 +40,10 @@ export default function LPHeader() {
             paddingTop: 120,
             background: isDarkTheme ? "#068" : "#01A9DB",
             position: "relative",
-            overflow: "hidden"
+            overflow: "hidden",
+            [`@media only screen and (max-width: 800px)`]: {
+                height: 350
+            },
         })
     }
     return (
