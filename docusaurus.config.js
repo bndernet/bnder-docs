@@ -37,12 +37,6 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'tmb/getting-started',
-            position: 'left',
-            label: 'Docs',
-          },
-          {
             href: 'https://github.com/bndernet/bnder-docs',
             label: 'GitHub',
             position: 'right',

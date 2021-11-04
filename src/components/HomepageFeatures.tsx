@@ -1,92 +1,144 @@
 import React from 'react';
-import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
+import Link from '@docusaurus/Link';
+import useThemeContext from "@theme/hooks/useThemeContext";
+import { faAmbulance } from "@fortawesome/free-solid-svg-icons/faAmbulance";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 
-function TaskManagerLinks() {
-    return (
-        <div className={clsx('col col--4')}>
-            <div className="text--left padding-horiz--md">
-                <h3>{"Task Manager"}</h3>
-                <ul>
-                    <li>
-                        <a href={"/docs/tmb/getting-started"}>Getting started</a>
-                    </li>
-                    <li>
-                        <a href={"/docs/tmb/all-commands"}>All commands</a>
-                    </li>
-                    <li>
-                        <a href={"/docs/tmb/slash-commands"}>Slash commands</a>
-                    </li>
-                    <li>
-                        <a href={"/docs/tmb/tasks"}>Tasks</a>
-                    </li>
-                </ul>
+export default function HomepageFeatures() {
+    return <section className={styles.features}>
+        <div className="container">
+            <div className={styles.topicGrid}>
+
+                <TopicBox
+                    title="Task Manager"
+                    titleImage="/img/tmb/taskmanagerbot_logo_128x128.webp"
+                    imageOptions={{ positionX: -5, scale: 1.1 }}
+                    boxLink="/docs/tmb/getting-started"
+                    links={[
+                        { displayName: "Getting started", linkTo: "/docs/tmb/getting-started" },
+                        { displayName: "All commands", linkTo: "/docs/tmb/all-commands" },
+                        { displayName: "Slash commands", linkTo: "/docs/tmb/slash-commands" },
+                        { displayName: "Tasks", linkTo: "/docs/tmb/tasks" }
+                    ]}
+                />
+
+                <TopicBox
+                    title="Discord Wellbeing"
+                    titleImage="/img/dwb/discordwellbeingbot_logo_128x128.webp"
+                    imageOptions={{ positionX: -5, scale: 1.1 }}
+                    boxLink="/docs/dwb/getting-started"
+                    links={[
+                        { displayName: "Getting started", linkTo: "/docs/dwb/getting-started" },
+                        { displayName: "All commands", linkTo: "/docs/dwb/all-commands" }
+                    ]}
+                />
+
+                <TopicBox
+                    title="General"
+                    boxLink="docs/general/team"
+                    titleImage="/img/bnder_logo.jpg"
+                    imageOptions={{ positionX: -5, scale: 0.9 }}
+                    links={[
+                        { displayName: "Team", linkTo: "docs/general/team" }
+                    ]}
+                />
+
+                <TopicBox
+                    title="bnder Discord Server"
+                    boxLink="/docs/bnder-discord/channels"
+                    icon={faAmbulance}
+                    links={[
+                        { displayName: "Channels", linkTo: "/docs/bnder-discord/channels" }
+                    ]}
+                />
+
             </div>
         </div>
-    );
+    </section>;
 }
 
-function DiscordWellbeingLinks() {
-    return (
-        <div className={clsx('col col--4')}>
-            <div className="text--left padding-horiz--md">
-                <h3>{"Discord Wellbeing"}</h3>
-                <ul>
-                    <li>
-                        <a href={"/docs/dwb/getting-started"}>Getting started</a>
-                    </li>
-                    <li>
-                        <a href={"/docs/dwb/all-commands"}>All commands</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    );
+interface Links {
+    displayName: string,
+    linkTo: string;
 }
 
-function General() {
-    return (
-        <div className={clsx('col col--4')}>
-            <div className="text--left padding-horiz--md">
-                <h3>{"General"}</h3>
-                <ul>
-                    <li>
-                        <a href={"/docs/general/team"}>Team</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    );
+interface TopicBoxProps {
+    /** The box title */
+    title: string;
+
+    /** Image next to the box title */
+    titleImage?: string;
+
+    /** A icon from fontawesome.com */
+    icon?: IconDefinition;
+
+    imageOptions?: {
+        /** Custom image style. Default: 1.0 */
+        scale?: number;
+
+        /** Custom image position on X axis */
+        positionX?: number;
+
+        /** Default: 50% */
+        customBorderRadius?: string;
+    };
+
+    /** Link if the user clicks just on the box and not on a link in the box */
+    boxLink: string;
+
+    /** List of displayed links in the box */
+    links: Links[];
 }
 
-function BnderDiscord() {
-    return (
-        <div className={clsx('col col--4')}>
-            <div className="text--left padding-horiz--md">
-                <h3>{"bnder Discord Server"}</h3>
-                <ul>
-                    <li>
-                        <a href={"/docs/bnder-discord/channels"}>Channels</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    );
-}
+function TopicBox(props: TopicBoxProps) {
+    const { isDarkTheme } = useThemeContext();
 
-export default function HomepageFeatures(): JSX.Element {
-    return (
-        <section className={styles.features}>
-            <div className="container">
-                <div className="row">
-                    <TaskManagerLinks/>
-                    <DiscordWellbeingLinks/>
-                    <General/>
+    const TopSection = () => {
+        return <div className={styles.topicBoxTitleSection}>
+
+            {props.icon && <div className={styles.topicBoxImageWrapper}>
+                <FontAwesomeIcon icon={props.icon}/>
+            </div>}
+
+
+            {props.titleImage && <div className={styles.topicBoxImageWrapper}>
+                <img
+                    className={styles.topicBoxImage}
+                    src={props.titleImage}
+                    alt=""
+                    style={{
+                        transform: `
+                            scale(${props.imageOptions?.scale || "1"})
+                            translateX(${props.imageOptions?.positionX}px)
+                        `,
+                        borderRadius: props.imageOptions?.customBorderRadius || "50%"
+                    }}
+                />
+            </div>}
+            <h3 className={`${styles.topicBoxTitle} ${isDarkTheme ? styles.topicBoxTitleDark : ""}`}>
+                {props.title}
+            </h3>
+        </div>;
+    };
+
+    const BottomSection = () => {
+        return <>
+            {props.links.map((link, index) => (
+                <div key={index}>
+                    <Link to={link.linkTo} className={styles.topicBoxLink}>
+                        {link.displayName}
+                    </Link>
                 </div>
-                <div className="row" style={{paddingTop: "1rem"}}>
-                    <BnderDiscord/>
-                </div>
-            </div>
-        </section>
-    );
+            ))}
+        </>;
+    }
+
+    return <Link to={props.boxLink} style={{ textDecoration: "unset" }}>
+        <div className={`${styles.topicBox} ${isDarkTheme ? styles.topicBoxDark : ""}`}>
+            <TopSection/>
+            <BottomSection/>
+        </div>
+    </Link>;
 }

@@ -1,6 +1,97 @@
 .features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.topicGrid {
+    /*border: 1px solid green;*/
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 40px;
+    padding: 80px 0;
+    align-items: stretch;
+}
+
+@media only screen and (max-width: 1150px) {
+    .topicGrid {
+        gap: 25px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .topicGrid {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+.topicBox {
+    cursor: pointer;
+    /*border: 1px solid red;*/
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 25px rgb(200 200 200 / 35%);
+    padding: 22px 25px;
+    transition: 300ms;
+}
+
+.topicBoxDark {
+    /*box-shadow: unset;*/
+    background: var(--ifm-color-gray-900);
+    box-shadow: 0 0 20px #0001;
+}
+
+.topicBox:hover {
+    /*background: #fcfcfc;*/
+    background: #fcfcfc;
+    box-shadow: 0 0 25px rgb(200 200 200 / 80%);
+    transform: translateY(-1px);
+}
+
+.topicBoxDark:hover {
+    background: var(--ifm-code-background);
+    box-shadow: 0 0 20px #0001;
+}
+
+.topicBoxImageWrapper {
+    /*border: 1px solid red;*/
+    display: flex;
+    align-items: center;
+    width: 35px;
+    color: #777;
+    font-size: 18px;
+}
+
+.topicBoxTitleSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.topicBoxImage {
+    /*border: 1px solid red;*/
+    height: 30px;
+    width: auto;
+    object-fit: cover;
+}
+
+.topicBoxTitle {
+    margin: 0;
+    padding-bottom: 3px;
+    color: #333;
+}
+
+.topicBoxTitleDark {
+    color: #fff;
+
+}
+
+.topicBoxLink {
+    display: inline-block;
+    /*border: 1px solid red;*/
+    padding: 2px 0;
+    /*height: 30px;*/
 }
