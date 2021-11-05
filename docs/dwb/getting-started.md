@@ -28,7 +28,7 @@ Make sure you are logged in to your Discord account.
 :::
 
 ```
-https://discord.com/oauth2/authorize?client_id=602460094940184587&scope=bot+applications.commands&permissions=85056
+https://discord.com/oauth2/authorize?client_id=684460735178604688&scope=bot&permissions=85056
 ```
 
 The structure of the link is the following:
@@ -42,7 +42,7 @@ The structure of the link is the following:
 - `scope=` This part defines what the application is going to be. The argument "bot" means, that it's a bot application
   that you are going to invite.
 - `permissions=` The number represents the permissions the bot wants to get on your server. All permissions are
-  necessary for the Task Manager in order to function properly. If you remove a permission, some features might not be
+  necessary for the Discord Wellbeing in order to function properly. If you remove a permission, some features might not be
   available.
 
 ### Bot permissions
@@ -50,6 +50,27 @@ The structure of the link is the following:
 On the invite page, you can see some permissions, the bot wants to get. These permissions are necessary for some
 specific functionality.
 
+![screenshot of discords authorization page](/img/dwb/discord_bot_authorize_image.webp)
+
+- `read messages` - The bot needs to read messages, to filter out messages starting with the [prefix](prefix.md)
+  of the bot.
+
+:::info
+
+The bot doesn't save any plain text messages. It only reacts and processes messages starting with the specified prefix
+and followed by a command.
+
+:::
+
+- `send messages` - If you send a command, you want the bot to answer to it. It does that by sending a message in the
+  text channel where the commands was sent. In order to send a message the bot needs the permission `send messages`.
+- `embed links` - The messages of the bot are specific designed to stand appart from normal messages sent by a user. In
+  order to send these "embed messages" this permission is required.
+- `read message history` - In some features, the bot looks up past messages of himself to update them with new
+  information. The look up is not possible without the permission `read message history`.
+- `add reactions` - Reactions are a simple way to add "buttons" to a message. The bot uses reactions for example if you
+  have a typo on a command. The bot detects that and can perform the right command just by tapping on the reaction.
+  Without the permission `add reactions` the bot can't add reactions to his own message.
 
 ### Authorize
 
