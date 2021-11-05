@@ -20,6 +20,6 @@ the "greater than" and "less than" aren't necessary. Look at the examples for mo
 | `unregister` | .unregister | Deletes all statistics saved from you and stops collecting more statistics. |
 | `stats` | .stats | Displays general statistics about the bot. |
 | `invite` | .invite | Gives you the link to invite the bot. |
-| `ranking <onlinetime/points> <today/yesterday/week/month/all>` | Displays a ranking from the specified values (onlinetime or points) in the given time range. |
+| `ranking <onlinetime/points> <today/yesterday/week/month/all>` | .ranking points week | Displays a ranking from the specified values (onlinetime or points) in the given time range. |
 | `settings <ranking-visibility>` | .settings ranking-visibility | Hides you from the ranking or otherwise. |
 | `limit <Time in Minutes/disable>` | .limit 120 | Disables or sets a onlinetime limit in minutes, where the Bot will notify you if the limit is reached. | 
