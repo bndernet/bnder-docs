@@ -4,12 +4,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'bnder Docs',
   url: 'https://docs.bnder.net',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
+  baseUrl: '/docs/',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'bndernet',
   projectName: 'bnder-docs',
+
+  clientModules: [
+    require.resolve("./removeTrailingSlash.js")
+  ],
 
   presets: [
     [
@@ -21,6 +25,7 @@ const config = {
           editUrl: 'https://github.com/bndernet/bnder-docs/edit/main/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
+          routeBasePath: "/"
         },
       }),
     ],
