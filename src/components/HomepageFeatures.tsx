@@ -8,12 +8,11 @@ import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 
 export default function HomepageFeatures() {
     return <section className={styles.features}>
-        <div className="container">
             <div className={styles.topicGrid}>
 
                 <TopicBox
                     title="Task Manager"
-                    titleImage="/img/tmb/taskmanagerbot_logo_128x128.webp"
+                    titleImage="/docs/img/tmb/taskmanagerbot_logo_128x128.webp"
                     imageOptions={{ positionX: -5, scale: 1.1 }}
                     boxLink="/docs/tmb/getting-started"
                     links={[
@@ -26,7 +25,7 @@ export default function HomepageFeatures() {
 
                 <TopicBox
                     title="Discord Wellbeing"
-                    titleImage="/img/dwb/discordwellbeingbot_logo_128x128.webp"
+                    titleImage="/docs/img/dwb/discordwellbeingbot_logo_128x128.webp"
                     imageOptions={{ positionX: -5, scale: 1.1 }}
                     boxLink="/docs/dwb/getting-started"
                     links={[
@@ -37,11 +36,11 @@ export default function HomepageFeatures() {
 
                 <TopicBox
                     title="General"
-                    boxLink="docs/general/team"
-                    titleImage="/img/bnder_logo.jpg"
+                    boxLink="/docs/general/team"
+                    titleImage="/docs/img/bnder_logo.jpg"
                     imageOptions={{ positionX: -5, scale: 0.9 }}
                     links={[
-                        { displayName: "Team", linkTo: "docs/general/team" }
+                        { displayName: "Team", linkTo: "/docs/general/team" }
                     ]}
                 />
 
@@ -55,7 +54,6 @@ export default function HomepageFeatures() {
                 />
 
             </div>
-        </div>
     </section>;
 }
 
