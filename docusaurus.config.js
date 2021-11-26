@@ -42,6 +42,11 @@ const config = {
         },
         items: [
           {
+            label: "Back to main page",
+            to: "https://bnder.net",
+            target: "_self"
+          },
+          {
             href: 'https://github.com/bndernet/bnder-docs',
             label: 'GitHub',
             position: 'right',
