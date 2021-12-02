@@ -1,5 +1,6 @@
 ---
 sidebar_position: 0
+slug: /tmb/getting-started
 ---
 
 # Getting started with Task Manager
@@ -15,7 +16,7 @@ In order to invite a bot to your server, you need the "Manage Server" permission
 :::
 
 Before a bot can be used on a Server it is necessary to invite the bot to the server you want it on. You do that by
-visiting an [invite page](https://bnder.net/@tmb), hosted on Discords network.
+visiting an [invitation page](https://bnder.net/@tmb), hosted on Discords network.
 
 ### Bot invite link
 
@@ -64,11 +65,11 @@ and followed by a command.
 :::
 
 - `send messages` - If you send a command, you want the bot to answer to it. It does that by sending a message in the
-  text channel where the commands was sent. In order to send a message the bot needs the permission `send messages`.
-- `embed links` - The messages of the bot are specific designed to stand appart from normal messages sent by a user. In
+  text channel where the commands were sent. In order to send a message the bot needs the permission `send messages`.
+- `embed links` - The messages of the bot are specific designed to stand apart from normal messages sent by a user. In
   order to send these "embed messages" this permission is required.
 - `read message history` - In some features, the bot looks up past messages of himself to update them with new
-  information. The look up is not possible without the permission `read message history`.
+  information. The look-up is not possible without the permission `read message history`.
 - `add reactions` - Reactions are a simple way to add "buttons" to a message. The bot uses reactions for example if you
   have a typo on a command. The bot detects that and can perform the right command just by tapping on the reaction.
   Without the permission `add reactions` the bot can't add reactions to his own message.

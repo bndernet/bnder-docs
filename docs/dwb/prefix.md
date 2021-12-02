@@ -1,8 +1,12 @@
+---
+slug: /dwb/prefix
+---
+
 # Prefix
 
 :::tip
 
-By default the prefix of the bot is `.` (dot).
+By default, the prefix of the bot is `.` (dot).
 
 :::
 

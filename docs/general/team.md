@@ -1,3 +1,8 @@
+---
+slug: /general/team
+---
+
+
 # Team
 
 Our Team is made up of 2 Administrators/Developers and 4 voluntarily moderators.

@@ -18,7 +18,7 @@ export default function HomepageFeatures() {
                     links={[
                         { displayName: "Getting started", linkTo: "/docs/tmb/getting-started" },
                         { displayName: "All commands", linkTo: "/docs/tmb/all-commands" },
-                        { displayName: "Slash commands", linkTo: "/docs/tmb/slash-commands" },
+                        { displayName: "Prefix", linkTo: "/docs/tmb/prefix" },
                         { displayName: "Tasks", linkTo: "/docs/tmb/tasks" }
                     ]}
                 />
@@ -30,7 +30,8 @@ export default function HomepageFeatures() {
                     boxLink="/docs/dwb/getting-started"
                     links={[
                         { displayName: "Getting started", linkTo: "/docs/dwb/getting-started" },
-                        { displayName: "All commands", linkTo: "/docs/dwb/all-commands" }
+                        { displayName: "All commands", linkTo: "/docs/dwb/all-commands" },
+                        { displayName: "Prefix", linkTo: "/docs/dwb/prefix" }
                     ]}
                 />
 
@@ -69,7 +70,7 @@ interface TopicBoxProps {
     /** Image next to the box title */
     titleImage?: string;
 
-    /** A icon from fontawesome.com */
+    /** An icon from fontawesome.com */
     icon?: IconDefinition;
 
     imageOptions?: {

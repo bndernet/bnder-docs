@@ -1,3 +1,7 @@
+---
+slug: /tmb/boards
+---
+
 # Boards
 
 Boards were introduced to Task Manager at 02/15/2021. They are a simple way to organize tasks when having multiple

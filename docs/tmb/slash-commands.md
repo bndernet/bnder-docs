@@ -1,3 +1,7 @@
+---
+slug: /tmb/slash-commands
+---
+
 # Slash Commands
 
 :::info
@@ -21,7 +25,7 @@ without kicking him before. The permission will update and the Bot can create sl
 
 When you type in a "/" (slash) in the text input field new options pop up.
 
-![screenshot of options poping up when typing slash in discord](/img/tmb/slash_commands.webp)
+![screenshot of options popping up when typing slash in discord](/img/tmb/slash_commands.webp)
 
 If the commands of Task Manager aren't shown directly, you can tap the profile picture of it in the left of the popup.
 

@@ -1,3 +1,7 @@
+---
+slug: /bnder-discord/channels
+---
+
 # Channels
 
 The [bnder Discord Server](https://bnder.net/discord) has specific channels.

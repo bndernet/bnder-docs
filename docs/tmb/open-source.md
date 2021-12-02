@@ -1,3 +1,7 @@
+---
+slug: /tmb/open-source
+---
+
 # Open Source
 
 The Task Manager Bot is [completely open source](https://github.com/bndernet/TaskManagerDiscordBot). Everybody can
