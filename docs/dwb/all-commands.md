@@ -1,5 +1,6 @@
 ---
 slug: /dwb/all-commands
+custom_edit_url: https://github.com/bndernet/bnder-docs/blob/main/docs/dwb/all-commands.md
 ---
 
 
