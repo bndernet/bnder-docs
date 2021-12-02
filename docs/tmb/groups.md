@@ -9,3 +9,6 @@ If you have a Team with multiple members and you want to assign a task to the wh
 all members you want to and now you only have to assign the task to the group instead of all members. Every group member
 will see the tasks of the group.
 
+## Group commands
+
+All board commands can be seen [here](all-commands.md#group-commands).

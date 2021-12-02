@@ -7,7 +7,7 @@ read [what Discord says about Slash Commands](https://blog.discord.com/slash-com
 
 :::
 
-In March 2021 Discord introduced slash commands.
+In March 2021 Discord introduced slash commands. Task Manager also supports them.
 
 ## How to use
 
@@ -24,3 +24,7 @@ When you type in a "/" (slash) in the text input field new options pop up.
 ![screenshot of options poping up when typing slash in discord](/img/tmb/slash_commands.webp)
 
 If the commands of Task Manager aren't shown directly, you can tap the profile picture of it in the left of the popup.
+
+There you can see a variety of commands. Every command has a little description. If you can't find the command by scrolling, start typing it. If the command exists it will get displayed.
+
+Discord guides you through all the parameters required to perform the command.

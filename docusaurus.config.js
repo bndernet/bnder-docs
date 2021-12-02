@@ -27,6 +27,9 @@ const config = {
           showLastUpdateTime: true,
           routeBasePath: "/"
         },
+        theme: {
+          customCss: [require.resolve('./src/css/custom.css')],
+        },
       }),
     ],
   ],
