@@ -12,6 +12,7 @@
 .DS_Store
 .idea
 .firebase
+.env
 .env.local
 .env.development.local
 .env.test.local
