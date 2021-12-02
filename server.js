@@ -1,7 +1,5 @@
 const express = require("express");
 const path = require("path");
-require("dotenv")
-    .config();
 
 const clientCache = process.env.CLIENT_CACHE_DURATION ?? "300";
 const cdnCache = process.env.CDN_CACHE_DURATION ?? "600"
