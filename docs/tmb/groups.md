@@ -9,9 +9,8 @@ you can begin adding users to it using the [`group add` command](all-commands.md
 
 ## Use cases
 
-If you have a Team with multiple members, and you want to assign a task to the whole team, just create a new group, add
-all members you want to, and now you only have to assign the task to the group instead of all members. Every group member
-will see the tasks of the group.
+If you want to assign a task to multiple members, just create a group. Every group member can work on the task and push
+updates to it. This makes it easier for whole teams to work on multiple tasks.
 
 ## Group commands
 
