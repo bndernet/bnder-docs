@@ -37,9 +37,12 @@ If you want to see detailed description of the commands [look here](../all-comma
 
 If you want to see detailed description of the commands [look here](../all-commands.md#board-commands).
 
-| Command | Short version |
-|---------|---------------|
-| `board` | `b`           |
+| Command        | Short version |
+|----------------|---------------|
+| `board`        | `b`           |
+| `board create` | `b c`         |
+| `board list`   | `b l`         |
+| `board switch` | `b s`         |
 
 ## Permission
 
