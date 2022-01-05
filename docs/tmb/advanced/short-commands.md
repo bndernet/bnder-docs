@@ -7,6 +7,12 @@ slug: /tmb/short-commands
 Since beginning of 2021 we provide some shorter versions of commands. The short equivalent of the commands are listed
 below.
 
+:::caution
+
+Short commands aren't working with [slash-commands](../slash-commands.md).
+
+:::
+
 ## Task
 
 If you want to see detailed description of the commands [look here](../all-commands.md#task-commands).
@@ -48,9 +54,12 @@ If you want to see detailed description of the commands [look here](../all-comma
 
 If you want to see detailed description of the commands [look here](../all-commands.md#permission-commands).
 
-| Command      | Short version |
-|--------------|---------------|
-| `permission` | `p`           |
+| Command             | Short version |
+|---------------------|---------------|
+| `permission`        | `p`           |
+| `permission list`   | `p l`         |
+| `permission add`    | `p a`         |
+| `permission remove` | `p r`         |
 
 ## Help
 
