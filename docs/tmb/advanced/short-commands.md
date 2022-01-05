@@ -7,9 +7,9 @@ slug: /tmb/short-commands
 Since beginning of 2021 we provide some shorter versions of commands. The short equivalent of the commands are listed
 below.
 
-:::caution
+:::info
 
-Short commands aren't working with [slash-commands](../slash-commands.md).
+Short commands only supports "normal/classic"-[commands](../all-commands.md).
 
 :::
 
