@@ -4,8 +4,7 @@ slug: /tmb/context-awareness
 
 # Context awareness
 
-Everyone hates to write the same things over and over again. In order to make more progress in less time, we developed
-context awareness into Task Manager.
+Context awareness makes it a lot easier to execute multiple commands on the same task or group.
 
 :::info
 
@@ -29,21 +28,21 @@ needs to perform the command you executed. This part can be a task id or a group
 2. Execute another command without including a task id and the bot will use the last task id you included.
 3. You can repeat that process infinite times. The bot will find the task id in answers it sent too.
 
-|                                               Normal                                               |                                   With context awareness                                   |
+|                                          Normal commands                                           |                                   With context awareness                                   |
 |:--------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------:|
 | ![Example with no context awareness in tasks](/img/tmb/tmb_no_context_awareness_task_example.webp) | ![Example of context awareness in tasks](/img/tmb/tmb_context_awareness_task_example.webp) | 
 
-As you can see, I don't have to write the ID of the task I just created. The bot knows that I want to execute that
-commands on that task.
+As you can see, the bot gets the Task ID from the message were the task was created and there is no need to write the
+ID.
 
 ### Context awareness in groups
 
 1. Create a group.
 2. Add a user to the group without writing the group name.
 
-|                                                Normal                                                |                                    With context awareness                                     |
+|                                           Normal commands                                            |                                    With context awareness                                     |
 |:----------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------:|
-| ![Example with no context awareness in groups](/img/tmb/tmb_no_context_awareness_group_example.webp) |  ![Example of context awareness in groups](/img/tmb/tmb_context_awareness_group_example.webp) |
+| ![Example with no context awareness in groups](/img/tmb/tmb_no_context_awareness_group_example.webp) | ![Example of context awareness in groups](/img/tmb/tmb_context_awareness_group_example.webp)  |
 
 ## Commands where Task Manager can extract data
 
@@ -51,7 +50,7 @@ commands on that task.
 
 ### Task IDs
 
-- "task add" answer by bot
+- "task add" answer message by the bot
 - "task info" command if ID is included
 - "task edit" command if ID is included
 - "task proceed" command if ID is included
