@@ -29,7 +29,7 @@ If you want to see detailed description of the commands [look here](../all-comma
 | `task info <Task ID>`        | `t i <Task ID>`         |
 | `task undo <Task ID>`        | `t u <Task ID>`         |
 
-### Example
+### Task example
 
 | Normal commands                                                                                    | Short commands                                                              |
 |----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ If you want to see detailed description of the commands [look here](../all-comma
 | `group members` | `g m`         |
 | `group list`    | `g l`         |
 
-### Example
+### Group example
 
 | Normal commands                                                                                     | Short commands                                                               |
 |-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
