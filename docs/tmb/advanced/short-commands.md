@@ -29,15 +29,30 @@ If you want to see detailed description of the commands [look here](../all-comma
 | `task info <Task ID>`        | `t i <Task ID>`         |
 | `task undo <Task ID>`        | `t u <Task ID>`         |
 
+### Example
+
+| Normal commands                                                                                    | Short commands                                                              |
+|----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| ![Example with no context awareness in tasks](/img/tmb/tmb_no_context_awareness_task_example.webp) | ![Example of short commands](/img/tmb/tmb_short_commands_task_example.webp) |
+
 ## Group
 
 If you want to see detailed description of the commands [look here](../all-commands.md#group-commands).
 
-| Command        | Short version |
-|----------------|---------------|
-| `group`        | `g`           |
-| `group remove` | `g rem`       |
-| `group list`   | `g l`         |
+| Command         | Short version |
+|-----------------|---------------|
+| `group`         | `g`           |
+| `group create`  | `g c`         |
+| `group add`     | `g a`         |
+| `group remove`  | `g rem`       |
+| `group members` | `g m`         |
+| `group list`    | `g l`         |
+
+### Example
+
+| Normal commands                                                                                     | Short commands                                                               |
+|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| ![Example with no context awareness in tasks](/img/tmb/tmb_no_context_awareness_group_example.webp) | ![Example of short commands](/img/tmb/tmb_short_commands_group_example.webp) | 
 
 ## Board
 
