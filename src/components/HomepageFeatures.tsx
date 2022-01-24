@@ -2,59 +2,61 @@ import React from 'react';
 import styles from './HomepageFeatures.module.css';
 import Link from '@docusaurus/Link';
 import useThemeContext from "@theme/hooks/useThemeContext";
-import { faAmbulance } from "@fortawesome/free-solid-svg-icons/faAmbulance";
+import { faBalanceScale } from "@fortawesome/free-solid-svg-icons/faBalanceScale";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 
 export default function HomepageFeatures() {
     return <section className={styles.features}>
-            <div className={styles.topicGrid}>
+        <div className={styles.topicGrid}>
 
-                <TopicBox
-                    title="Task Manager"
-                    titleImage="/docs/img/tmb/taskmanagerbot_logo_128x128.webp"
-                    imageOptions={{ positionX: -5, scale: 1.1 }}
-                    boxLink="/docs/tmb/getting-started"
-                    links={[
-                        { displayName: "Getting started", linkTo: "/docs/tmb/getting-started" },
-                        { displayName: "All commands", linkTo: "/docs/tmb/all-commands" },
-                        { displayName: "Prefix", linkTo: "/docs/tmb/prefix" },
-                        { displayName: "Tasks", linkTo: "/docs/tmb/tasks" }
-                    ]}
-                />
+            <TopicBox
+                title="Task Manager"
+                titleImage="/docs/img/tmb/taskmanagerbot_logo_128x128.webp"
+                imageOptions={{ positionX: -5, scale: 1.1 }}
+                boxLink="/docs/tmb/getting-started"
+                links={[
+                    { displayName: "Getting started", linkTo: "/docs/tmb/getting-started" },
+                    { displayName: "All commands", linkTo: "/docs/tmb/all-commands" },
+                    { displayName: "Prefix", linkTo: "/docs/tmb/prefix" },
+                    { displayName: "Tasks", linkTo: "/docs/tmb/tasks" }
+                ]}
+            />
 
-                <TopicBox
-                    title="Discord Wellbeing"
-                    titleImage="/docs/img/dwb/discordwellbeingbot_logo_128x128.webp"
-                    imageOptions={{ positionX: -5, scale: 1.1 }}
-                    boxLink="/docs/dwb/getting-started"
-                    links={[
-                        { displayName: "Getting started", linkTo: "/docs/dwb/getting-started" },
-                        { displayName: "All commands", linkTo: "/docs/dwb/all-commands" },
-                        { displayName: "Prefix", linkTo: "/docs/dwb/prefix" }
-                    ]}
-                />
+            <TopicBox
+                title="Discord Wellbeing"
+                titleImage="/docs/img/dwb/discordwellbeingbot_logo_128x128.webp"
+                imageOptions={{ positionX: -5, scale: 1.1 }}
+                boxLink="/docs/dwb/getting-started"
+                links={[
+                    { displayName: "Getting started", linkTo: "/docs/dwb/getting-started" },
+                    { displayName: "All commands", linkTo: "/docs/dwb/all-commands" },
+                    { displayName: "Prefix", linkTo: "/docs/dwb/prefix" }
+                ]}
+            />
 
-                <TopicBox
-                    title="General"
-                    boxLink="/docs/general/team"
-                    titleImage="/docs/img/bnder_logo.jpg"
-                    imageOptions={{ positionX: -5, scale: 0.9 }}
-                    links={[
-                        { displayName: "Team", linkTo: "/docs/general/team" }
-                    ]}
-                />
+            <TopicBox
+                title="General"
+                boxLink="/docs/general/team"
+                titleImage="/docs/img/bnder_logo.jpg"
+                imageOptions={{ positionX: -5, scale: 0.9 }}
+                links={[
+                    { displayName: "Team", linkTo: "/docs/general/team" }
+                ]}
+            />
 
-                <TopicBox
-                    title="bnder Discord Server"
-                    boxLink="/docs/bnder-discord/channels"
-                    icon={faAmbulance}
-                    links={[
-                        { displayName: "Channels", linkTo: "/docs/bnder-discord/channels" }
-                    ]}
-                />
+            <TopicBox
+                title="Legal"
+                boxLink="/docs/legal/imprint"
+                icon={faBalanceScale}
+                links={[
+                    { displayName: "Imprint", linkTo: "/docs/legal/imprint" },
+                    { displayName: "Terms of use", linkTo: "/docs/legal/termsofuse" },
+                    { displayName: "Privacy", linkTo: "/docs/legal/privacy" },
+                ]}
+            />
 
-            </div>
+        </div>
     </section>;
 }
 
