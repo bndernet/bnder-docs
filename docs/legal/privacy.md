@@ -65,7 +65,8 @@ Sofern nicht in dieser Datenschutzerklärung ausdrücklich angegeben, werden Ihr
 Wir setzen keine automatische Entscheidungsfindung oder ein Profiling ein.
 
 ### Bereitstellung unserer Website und Erstellung von Logfiles
-Wenn Sie unsere Webseite lediglich informatorisch nutzen (also keine Registrierung und auch keine anderweitige Übermittlung von Informationen), erheben wir nur die personenbezogenen Daten, die Ihr Browser an unseren Server übermittelt. Wenn Sie unsere Website betrachten möchten, erheben wir die folgenden Daten: • IP-Adresse;
+Wenn Sie unsere Webseite lediglich informatorisch nutzen (also keine Registrierung und auch keine anderweitige Übermittlung von Informationen), erheben wir nur die personenbezogenen Daten, die Ihr Browser an unseren Server übermittelt. Wenn Sie unsere Website betrachten möchten, erheben wir die folgenden Daten: 
+- IP-Adresse;
 - Internet-Service-Provider des Nutzers;
 - Datum und Uhrzeit des Abrufs;
 - Browsertyp;
@@ -76,7 +77,8 @@ Wenn Sie unsere Webseite lediglich informatorisch nutzen (also keine Registrieru
 - Datenmenge;
 - Websites, von denen die Anforderung kommt;
 - Betriebssystem.
-  Eine Speicherung dieser Daten zusammen mit anderen personenbezogenen Daten von Ihnen findet nicht statt.
+
+Eine Speicherung dieser Daten zusammen mit anderen personenbezogenen Daten von Ihnen findet nicht statt.
 
 Diese Daten dienen dem Zweck der benutzerfreundlichen, funktionsfähigen und sicheren Auslieferung unserer Website an Sie mit Funktionen und Inhalten sowie deren Optimierung und statistischen Auswertung.
 
