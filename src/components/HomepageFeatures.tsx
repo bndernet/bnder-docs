@@ -24,28 +24,6 @@ export default function HomepageFeatures() {
             />
 
             <TopicBox
-                title="Discord Wellbeing"
-                titleImage="/docs/img/dwb/discordwellbeingbot_logo_128x128.webp"
-                imageOptions={{ positionX: -5, scale: 1.1 }}
-                boxLink="/docs/dwb/getting-started"
-                links={[
-                    { displayName: "Getting started", linkTo: "/docs/dwb/getting-started" },
-                    { displayName: "All commands", linkTo: "/docs/dwb/all-commands" },
-                    { displayName: "Prefix", linkTo: "/docs/dwb/prefix" }
-                ]}
-            />
-
-            <TopicBox
-                title="General"
-                boxLink="/docs/general/team"
-                titleImage="/docs/img/bnder_logo.jpg"
-                imageOptions={{ positionX: -5, scale: 0.9 }}
-                links={[
-                    { displayName: "Team", linkTo: "/docs/general/team" }
-                ]}
-            />
-
-            <TopicBox
                 title="Legal"
                 boxLink="/docs/legal/imprint"
                 icon={faBalanceScale}
