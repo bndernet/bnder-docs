@@ -90,10 +90,6 @@ const config = {
                                 to: 'https://bnder.net/@tmb',
                             },
                             {
-                                label: 'Invite Discord Wellbeing',
-                                to: 'https://bnder.net/@dwb',
-                            },
-                            {
                                 label: 'Join our Discord',
                                 to: 'https://bnder.net/discord',
                             },
@@ -105,11 +101,7 @@ const config = {
                             {
                                 label: 'Task Manager',
                                 to: 'https://bnder.net/tmb',
-                            },
-                            {
-                                label: 'Discord Wellbeing',
-                                to: 'https://bnder.net/dwb',
-                            },
+                            }
                         ],
                     },
                     {
