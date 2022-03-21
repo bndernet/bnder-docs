@@ -20,7 +20,14 @@ const config = {
       '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        googleAnalytics: {
+          trackingID: 'UA-115344867-1',
+          anonymizeIP: true,
+        },
         docs: {
+          exclude: [
+              '**/tmb/advanced/*'
+          ],
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/bndernet/bnder-docs/edit/main/',
           showLastUpdateAuthor: true,
