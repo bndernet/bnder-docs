@@ -55,14 +55,14 @@ const config = {
                 },
                 items: [
                     {
-                        label: 'Task Manager Bot',
-                        href: '../../../../../../../../tmb',
+                        label: 'Our Discord',
+                        href: '../../../../../../../../discord',
                         position: 'right',
                         target: '_parent'
                     },
                     {
-                        label: 'Our Discord',
-                        href: '../../../../../../../../discord',
+                        label: 'Donate',
+                        href: '../../../../../../../../donate',
                         position: 'right',
                         target: '_parent'
                     },
@@ -96,11 +96,20 @@ const config = {
                         ],
                     },
                     {
-                        title: 'Our Discord Bots',
+                        title: 'Task Manager',
                         items: [
                             {
                                 label: 'Task Manager',
-                                to: 'https://bnder.net/tmb',
+                                to: '../../../../../../../../',
+                                target: '_parent'
+                            },
+                            {
+                                label: 'Getting started',
+                                to: '/tmb/getting-started',
+                            },
+                            {
+                                label: 'All Commands',
+                                to: '/tmb/all-commands',
                             }
                         ],
                     },
