@@ -7,18 +7,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 
 export default function HomepageFeatures() {
-    return <section style={{ display: "flex", alignItems: "center" }}>
-        <div
-            className={styles.topicGrid}
-            style={{
-                width: "100%",
-                display: "grid",
-                gridTemplateColumns: "repeat(2, minmax(0, 1fr))",
-                gap: 40,
-                padding: "80px 0",
-                alignItems: "stretch"
-            }}
-        >
+    return <section className={styles.features}>
+        <div className={styles.topicGrid}>
 
             <TopicBox
                 title="Task Manager"
@@ -124,10 +114,12 @@ function TopicBox(props: TopicBoxProps) {
         </>;
     }
 
-    return <Link to={props.boxLink} style={{ textDecoration: "unset" }}>
-        <div className={`${styles.topicBox} ${isDarkTheme ? styles.topicBoxDark : ""}`}>
-            <TopSection/>
-            <BottomSection/>
-        </div>
-    </Link>;
+    return <div>
+        <Link to={props.boxLink} style={{ textDecoration: "unset" }}>
+            <div className={`${styles.topicBox} ${isDarkTheme ? styles.topicBoxDark : ""}`}>
+                <TopSection/>
+                <BottomSection/>
+            </div>
+        </Link>
+    </div>;
 }
