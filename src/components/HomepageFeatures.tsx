@@ -9,6 +9,7 @@ import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 export default function HomepageFeatures() {
     return <section style={{ display: "flex", alignItems: "center" }}>
         <div
+            className={styles.topicGrid}
             style={{
                 width: "100%",
                 display: "grid",
