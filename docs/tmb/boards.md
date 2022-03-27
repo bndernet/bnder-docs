@@ -15,6 +15,8 @@ create a board and switch to it. If you create a task now, it will be created in
 you will see only tasks created in that board. If you switch the board to any other board, the task you just created
 won't be visible in `task list` because it was created in another board.
 
+![visual explanation of tasks, groups & boards](/img/tmb/group-board-task-explanation.svg)
+
 ## Board commands
 
 All board commands can be seen [here](all-commands.md#board-commands).
