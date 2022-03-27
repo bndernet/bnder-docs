@@ -17,29 +17,29 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-beta.14",
-    "@docusaurus/plugin-content-docs": "^2.0.0-beta.14",
-    "@docusaurus/plugin-google-analytics": "^2.0.0-beta.14",
-    "@docusaurus/preset-classic": "^2.0.0-beta.14",
-    "@emotion/css": "^11.5.0",
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@fortawesome/react-fontawesome": "^0.1.16",
-    "@mdx-js/react": "^1.6.21",
-    "@svgr/webpack": "^6.1.2",
+    "@docusaurus/core": "^2.0.0-beta.18",
+    "@docusaurus/plugin-content-docs": "^2.0.0-beta.18",
+    "@docusaurus/plugin-google-analytics": "^2.0.0-beta.18",
+    "@docusaurus/preset-classic": "^2.0.0-beta.18",
+    "@emotion/css": "^11.7.1",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@mdx-js/react": "1.6.22",
+    "@svgr/webpack": "^6.2.1",
     "clsx": "^1.1.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "file-loader": "^6.2.0",
-    "prism-react-renderer": "^1.2.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "prism-react-renderer": "^1.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-use": "^17.3.2",
     "url-loader": "^4.1.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^2.0.0-beta.14",
-    "@tsconfig/docusaurus": "^1.0.4",
-    "typescript": "^4.3.5"
+    "@docusaurus/module-type-aliases": "^2.0.0-beta.18",
+    "@tsconfig/docusaurus": "^1.0.5",
+    "typescript": "^4.6.3"
   },
   "browserslist": {
     "production": [

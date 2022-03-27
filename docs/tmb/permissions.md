@@ -38,7 +38,7 @@ Permissions can be revoked by executing the [`permission remove` command](all-co
 :::caution
 
 Removing a permission from a group or a user doesn't mean that the user(s) can't execute a command requiring that
-permission. If the user(s) has/have another role who has the permission granted, that overwrites it, and he/they will be
+permission. If the user(s) has/have another role who has the permission granted, that overwrites it, and users(s) will be
 able to perform the command.
 
 :::

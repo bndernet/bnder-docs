@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './HomepageFeatures.module.css';
 import Link from '@docusaurus/Link';
-import useThemeContext from "@theme/hooks/useThemeContext";
 import { faBalanceScale } from "@fortawesome/free-solid-svg-icons/faBalanceScale";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
+import { useColorMode } from "@docusaurus/theme-common";
 
 export default function HomepageFeatures() {
     return <section className={styles.features}>
@@ -72,7 +72,7 @@ interface TopicBoxProps {
 }
 
 function TopicBox(props: TopicBoxProps) {
-    const { isDarkTheme } = useThemeContext();
+    const { isDarkTheme } = useColorMode();
 
     const TopSection = () => {
         return <div className={styles.topicBoxTitleSection}>
