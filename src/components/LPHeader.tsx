@@ -1,7 +1,7 @@
 import LPHeaderIconBackground, { iconSet } from "./LPHeaderIconBackground";
 import { css } from "@emotion/css";
 import React from "react";
-import useThemeContext from "@theme/hooks/useThemeContext";
+import { useColorMode } from '@docusaurus/theme-common';
 
 
 function CenterText() {
@@ -32,7 +32,7 @@ function CenterText() {
 }
 
 export default function LPHeader() {
-    const { isDarkTheme } = useThemeContext();
+    const { isDarkTheme } = useColorMode();
 
     const styles = {
         main: css({
