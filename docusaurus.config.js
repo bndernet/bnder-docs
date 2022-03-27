@@ -26,9 +26,6 @@ const config = {
                     anonymizeIP: true,
                 },
                 docs: {
-                    exclude: [
-                        '**/tmb/advanced/*'
-                    ],
                     sidebarPath: require.resolve('./sidebars.js'),
                     editUrl: 'https://github.com/bndernet/bnder-docs/edit/main/',
                     showLastUpdateAuthor: true,
