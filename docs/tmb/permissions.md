@@ -4,7 +4,7 @@ slug: /tmb/permissions
 
 # Permissions
 
-We implemented a custom permission system which allows users to grant others access to single commands.
+We implemented a custom permission system that allows users to grant others access to single commands.
 
 :::info
 
@@ -16,8 +16,8 @@ the right to execute every command.
 ## How does it work?
 
 The Bot first checks if the user is the owner of the server or if he has a role with Discords Administrator permission.
-If that isn't the case it checks what permissions were granted to the user directly and to his roles. If any role of him
-has a permission, he will be able to execute the command which requires that permission.
+If that isn't the case it checks what permissions were granted to the user directly and to his roles. If any role of his
+has permission, he will be able to execute the command which requires that permission.
 
 ### Example
 
@@ -37,7 +37,7 @@ Permissions can be revoked by executing the [`permission remove` command](all-co
 
 :::caution
 
-Removing a permission from a group or a user doesn't mean that the user(s) can't execute a command requiring that
+Removing permission from a group or a user doesn't mean that the user(s) can't execute a command requiring that
 permission. If the user(s) has/have another role who has the permission granted, that overwrites it, and users(s) will be
 able to perform the command.
 

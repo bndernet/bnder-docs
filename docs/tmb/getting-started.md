@@ -1,17 +1,17 @@
 ---
-sidebar_position: 0
-slug: /tmb/getting-started
+sidebar_position: 0 slug: /tmb/getting-started
 ---
 
 # Getting started with Task Manager
 
-To get started with Task Manager you have to invite the bot to your server. You can invite it via our [invite link (https://bnder.net/@tmb)](https://bnder.net/@tmb).
+To get started with Task Manager you have to invite the bot to your server. You can invite it via
+our [invite link (https://bnder.net/@tmb)](https://bnder.net/@tmb).
 
 ## Inviting
 
 :::caution
 
-In order to invite a bot to your server, you need the "Manage Server" permission or have to be the owner of the server.
+To invite a bot to your server, you need the "Manage Server" permission or have to be the owner of the server.
 
 :::
 
@@ -44,7 +44,7 @@ The structure of the link is the following:
   that you are going to invite. "applications.commands" is necessary for bot applications to
   create [slash commands](slash-commands.md).
 - `permissions=` The number represents the permissions the bot wants to get on your server. All permissions are
-  necessary for the Task Manager in order to function properly. If you remove a permission, some features might not be
+  necessary for the Task Manager in order to function properly. If you remove permission, some features might not be
   available.
 
 ### Bot permissions
@@ -64,15 +64,15 @@ and followed by a command.
 
 :::
 
-- `send messages` - If you send a command, you want the bot to answer to it. It does that by sending a message in the
-  text channel where the commands were sent. In order to send a message the bot needs the permission `send messages`.
-- `embed links` - The messages of the bot are specific designed to stand apart from normal messages sent by a user. In
-  order to send these "embed messages" this permission is required.
+- `send messages` - If you send a command, you want the bot to answer it. It does that by sending a message in the text
+  channel where the commands were sent. To send a message, the bot needs permission `send messages`.
+- `embed links` - The messages of the bot are specific designed to stand apart from normal messages sent by a user. To
+  send these "embed messages" this permission is required.
 - `read message history` - In some features, the bot looks up past messages of himself to update them with new
   information. The look-up is not possible without the permission `read message history`.
 - `add reactions` - Reactions are a simple way to add "buttons" to a message. The bot uses reactions for example if you
   have a typo on a command. The bot detects that and can perform the right command just by tapping on the reaction.
-  Without the permission `add reactions` the bot can't add reactions to his own message.
+  Without the permission `add reactions` the bot can't add reactions to his message.
 
 ### Authorize
 

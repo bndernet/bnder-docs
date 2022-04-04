@@ -6,7 +6,7 @@ slug: /bnder-discord/channels
 
 The [bnder Discord Server](https://bnder.net/discord) has specific channels.
 
-We have a section for messaging in german and messaging in english. German channels start with "de" and english channels
+We have a section for messaging in german and messaging in English. German channels start with "de" and English channels
 start with "en".
 
 ## Support channels
@@ -25,7 +25,7 @@ If you have an idea or a feature request, just type it out in "suggestions" and 
 
 ## News channel
 
-We provide news-channel in german ("de-news") and english ("en-news"). You can follow these channels and get notified on
+We provide news-channel in german ("de-news") and English ("en-news"). You can follow these channels and get notified on
 your server when we will publish updates.
 
 ## General chat

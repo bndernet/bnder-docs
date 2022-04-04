@@ -5,11 +5,11 @@ slug: /tmb/open-source
 # Open Source
 
 The Task Manager Bot is [completely open source](https://github.com/bndernet/TaskManagerDiscordBot). Everybody can
-contribute to the project, fix bugs and add new features by themselves.
+contribute to the project, fix bugs, and add new features by themselves.
 
 ## Contributing
 
-We appreciate your contributions and feature recommendations. Feel free to contribute on our projects
+We appreciate your contributions and feature recommendations. Feel free to contribute to our projects
 via [GitHub](https://github.com/bndernet).
 
 ## Contributors
