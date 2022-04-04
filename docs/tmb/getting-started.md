@@ -1,5 +1,6 @@
 ---
-sidebar_position: 0 slug: /tmb/getting-started
+sidebar_position: 0
+slug: /tmb/getting-started
 ---
 
 # Getting started with Task Manager
