@@ -21,7 +21,7 @@
     "@docusaurus/plugin-content-docs": "^2.0.0-beta.18",
     "@docusaurus/plugin-google-analytics": "^2.0.0-beta.18",
     "@docusaurus/preset-classic": "^2.0.0-beta.18",
-    "@emotion/css": "^11.7.1",
+    "@emotion/css": "^11.9.0",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",

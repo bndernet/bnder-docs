@@ -38,24 +38,25 @@ Permissions can be revoked by executing the [`permission remove` command](all-co
 :::caution
 
 Removing permission from a group or a user doesn't mean that the user(s) can't execute a command requiring that
-permission. If the user(s) has/have another role who has the permission granted, that overwrites it, and users(s) will be
-able to perform the command.
+permission. If the user(s) has/have another role who has the permission granted, that overwrites it, and users(s) will
+be able to perform the command.
 
 :::
 
 ## All permissions
 
-| Permission        | Use case                                               |
-|-------------------|--------------------------------------------------------|
-| CREATE_TASK       | Is required to create a new task.                      |
-| DELETE_TASK       | Is required to delete a task.                          |
-| EDIT_TASK         | Is required to edit the text of a task.                |
-| CREATE_GROUP      | Is required to create a new group.                     |
-| DELETE_GROUP      | Is required to delete a group.                         |
-| ADD_MEMBERS       | Is required to add a member to a group.                |
-| REMOVE_MEMBERS    | Is required to remove a member from a group.           |
-| ADD_PERMISSION    | Is required to grant users or roles permissions.       |
-| REMOVE_PERMISSION | Is required to revoke permissions from roles or users. |
-| SHOW_PERMISSIONS  | Is required to list all permissions of a role or user  |
-| CREATE_BOARD      | Is required to create a new board                      |
-| DELETE_BOARD      | Is required to delete a board                          |
+| Permission            | Use case                                                               |
+|-----------------------|------------------------------------------------------------------------|
+| CREATE_TASK           | Is required to create a new task.                                      |
+| DELETE_TASK           | Is required to delete a task.                                          |
+| EDIT_TASK             | Is required to edit the text of a task.                                |
+| CREATE_GROUP          | Is required to create a new group.                                     |
+| DELETE_GROUP          | Is required to delete a group.                                         |
+| ADD_MEMBERS           | Is required to add a member to a group.                                |
+| REMOVE_MEMBERS        | Is required to remove a member from a group.                           |
+| ADD_PERMISSION        | Is required to grant users or roles permissions.                       |
+| REMOVE_PERMISSION     | Is required to revoke permissions from roles or users.                 |
+| SHOW_PERMISSIONS      | Is required to list all permissions of a role or user                  |
+| CREATE_BOARD          | Is required to create a new board                                      |
+| DELETE_BOARD          | Is required to delete a board                                          |
+| DEFINE_NOTIFY_CHANNEL | is required to set a text channel via "settings notifychannel" command |
