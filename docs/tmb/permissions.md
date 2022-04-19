@@ -59,4 +59,4 @@ be able to perform the command.
 | SHOW_PERMISSIONS      | Is required to list all permissions of a role or user                  |
 | CREATE_BOARD          | Is required to create a new board                                      |
 | DELETE_BOARD          | Is required to delete a board                                          |
-| DEFINE_NOTIFY_CHANNEL | is required to set a text channel via "settings notifychannel" command |
+| DEFINE_NOTIFY_CHANNEL | Is required to set a text channel via "settings notifychannel" command |
