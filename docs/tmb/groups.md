@@ -16,4 +16,4 @@ updates to it. This makes it easier for whole teams to work on multiple tasks.
 
 ## Group commands
 
-All board commands can be seen [here](all-commands.md#group-commands).
+All group commands can be seen [here](all-commands.md#group-commands).
